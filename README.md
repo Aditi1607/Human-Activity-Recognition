@@ -55,33 +55,10 @@ Human Activity Recognition (HAR) project that detects and classifies human actio
 ## 🧩 Tech Stack
 
 - **Language:** Python  
-- **Pose Estimation:** [MediaPipe Pose](https://developers.google.com/mediapipe/solutions/vision/pose)  
-- **Deep Learning:** TensorFlow / Keras (LSTM) or PyTorch (if you prefer)  
+- **Pose Estimation:** MediaPipe Pose  
+- **Deep Learning:** LSTM  
 - **Data Handling:** NumPy, Pandas  
 - **Visualization:** OpenCV, Matplotlib  
 - **Environment:** Jupyter Notebook / Python scripts
 
 ---
-
-## 📁 Repository Structure (suggested)
-
-```bash
-.
-├── data/
-│   ├── raw/                 # Raw recorded CSVs
-│   ├── processed/           # Cleaned / merged datasets
-├── models/
-│   └── lstm_har_model.h5    # Saved trained model
-├── notebooks/
-│   └── exploration.ipynb    # EDA / experiments
-├── src/
-│   ├── collect_data.py      # Webcam capture & CSV generation
-│   ├── train_model.py       # LSTM training script
-│   ├── inference.py         # Real-time inference
-│   └── utils.py             # Helper functions
-├── assets/
-│   ├── activities.png       # Activity collage image
-│   ├── mediapipe_pose.png   # Skeleton diagram
-│   └── pipeline.png         # Flowchart of the pipeline
-├── README.md
-└── requirements.txt
